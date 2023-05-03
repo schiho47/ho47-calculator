@@ -1,10 +1,10 @@
 .number{
     border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     width:130px;
     height:50px;
-    border:1px solid black;
+    border:1px solid white;
     margin: 1rem;
     text-align: center;
     align-items: center;
@@ -17,11 +17,11 @@
 };
 .operator{
     border-radius: 10px;
-    background-color: orange;
-    color: white;
+    background-color: rgb(119, 255, 0);
+    color: black;
     width:130px;
     height:50px;
-    border:1px solid orange;
+    border:1px solid rgb(119, 255, 0);
     margin: 1rem;
     text-align: center;
     align-items: center;
@@ -31,4 +31,18 @@
     font-weight: 700;
     cursor: pointer;
     justify-content: space-between
+}
+
+@media(max-width:500px) {
+    .number{
+       width:13%;
+       height:40px;
+       padding-top: 15px;
+    };
+    .operator{
+     width:13%;
+     height:40px;
+     padding-top: 15px;
+  
+    }
 }
