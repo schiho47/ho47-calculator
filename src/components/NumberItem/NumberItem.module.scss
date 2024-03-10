@@ -1,27 +1,7 @@
-.number{
+.commonItem{
     border-radius: 10px;
-    background-color: white;
-    color: black;
     width:130px;
     height:50px;
-    border:1px solid white;
-    margin: 1rem;
-    text-align: center;
-    align-items: center;
-    vertical-align: middle;
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    justify-content: space-between;
-};
-.operator{
-    border-radius: 10px;
-    background-color: rgb(119, 255, 0);
-    color: black;
-    width:130px;
-    height:50px;
-    border:1px solid rgb(119, 255, 0);
     margin: 1rem;
     text-align: center;
     align-items: center;
@@ -32,6 +12,23 @@
     cursor: pointer;
     justify-content: space-between
 }
+.number{
+    background-color: white;
+    color: black;
+    border:1px solid white;
+};
+.operator{
+    background-color: rgb(119, 255, 0);
+    color: black;
+    border:1px solid rgb(119, 255, 0);
+}
+.operatorSelected{
+    background-color: rgb(56, 69, 44);
+    color: black;
+    border:1px solid  rgb(56, 69, 44);
+}
+
+
 
 @media(max-width:500px) {
     .number{
