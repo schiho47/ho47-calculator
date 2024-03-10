@@ -1,5 +1,4 @@
 import styles from './NumberItem.module.scss';
-import { useState } from 'react';
 
 const NumberItem = ({ data, operator, onClick, isSelectedOperator }) => {
   const itemClassName =
